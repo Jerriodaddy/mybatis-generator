@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <properties resource="generator.properties"/>
+    <context id="MysqlContext" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+        <property name="autoDelimitKeywords" value="true"/>
+        <property name="javaFileEncoding" value="UTF-8"/>
+
+        <!--        <!&ndash; 为模型生成序列化方法&ndash;>-->
+        <!--        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>-->
+        <!--        <!&ndash; 为生成的Java模型创建一个toString方法 &ndash;>-->
+        <!--        <plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>-->
+        <!--        <!&ndash;生成mapper.xml时覆盖原文件&ndash;>-->
+        <!--        <plugin type="org.mybatis.generator.plugins.UnmergeableXmlMappersPlugin" />-->
+
+        <!-- 简化Mapper插件 -->
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="com.jerrio.mbg.utils.MyMapper"/>
+        </plugin>
+
+        <jdbcConnection driverClass="${jdbc.driverClass}"
+                        connectionURL="${jdbc.connectionURL}"
+                        userId="${jdbc.userId}"
+                        password="${jdbc.password}">
+            <!-- 解决mysql驱动升级到8.0后不生成指定数据库代码的问题，防止生成其他库同名表-->
+            <property name="nullCatalogMeansCurrent" value="true"/>
+        </jdbcConnection>
+        <!-- 对应生成的pojo所在包 -->
+        <javaModelGenerator targetPackage="com.jerrio.mbg.pojo" targetProject="src/main/java"/>
+        <!-- 对应生成的mapper所在目录 -->
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+        <!-- 配置mapper对应的java映射 -->
+        <javaClientGenerator targetPackage="com.jerrio.mbg.mapper" targetProject="src/main/java"
+                             type="XMLMAPPER"/>
+
+        <!-- 生成全部表tableName设为% -->
+        <table tableName="%" delimitIdentifiers="true">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        <!--        <table tableName="order">-->
+        <!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+        <!--        </table>-->
+    </context>
+</generatorConfiguration>
