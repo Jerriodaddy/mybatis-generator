@@ -10,13 +10,4 @@
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="age" jdbcType="VARCHAR" property="age" />
   </resultMap>
-  <resultMap id="BaseResultMap" type="com.jerrio.mbg.pojo.User">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="id" jdbcType="VARCHAR" property="id" />
-    <result column="name" jdbcType="VARCHAR" property="name" />
-    <result column="password" jdbcType="VARCHAR" property="password" />
-    <result column="age" jdbcType="VARCHAR" property="age" />
-  </resultMap>
 </mapper>

@@ -9,12 +9,4 @@
     <result column="building" jdbcType="VARCHAR" property="building" />
     <result column="capacity" jdbcType="VARCHAR" property="capacity" />
   </resultMap>
-  <resultMap id="BaseResultMap" type="com.jerrio.mbg.pojo.Class">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="id" jdbcType="VARCHAR" property="id" />
-    <result column="building" jdbcType="VARCHAR" property="building" />
-    <result column="capacity" jdbcType="VARCHAR" property="capacity" />
-  </resultMap>
 </mapper>
