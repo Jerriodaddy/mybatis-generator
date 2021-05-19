@@ -32,7 +32,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+>>>>>>> 079d191ebaa63e84d1ea483e02879608cfaf99a0
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,6 +44,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
+<<<<<<< HEAD
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -51,6 +56,27 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jerrio.mbg.*" />
+=======
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GeneratorDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jerrio.GeneratorDisplay" />
+      <module name="mybatisTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jerrio.*" />
+>>>>>>> 079d191ebaa63e84d1ea483e02879608cfaf99a0
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,6 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="GeneratorDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nuoquan.mybatis.utils.GeneratorDisplay" />
       <module name="mybatis-generator" />
@@ -67,13 +94,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+=======
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> 079d191ebaa63e84d1ea483e02879608cfaf99a0
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.GeneratorDisplay (1)" />
+=======
+>>>>>>> 079d191ebaa63e84d1ea483e02879608cfaf99a0
         <item itemvalue="Application.GeneratorDisplay" />
       </list>
     </recent_temporary>
@@ -95,7 +134,13 @@
       <workItem from="1599911102699" duration="3678000" />
       <workItem from="1601095399195" duration="2360000" />
       <workItem from="1604048260525" duration="235000" />
+<<<<<<< HEAD
       <workItem from="1621430452733" duration="1729000" />
+=======
+      <workItem from="1621417007905" duration="1637000" />
+      <workItem from="1621418693606" duration="2224000" />
+      <workItem from="1621420953799" duration="4368000" />
+>>>>>>> 079d191ebaa63e84d1ea483e02879608cfaf99a0
     </task>
     <servers />
   </component>
@@ -103,6 +148,7 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state width="1398" height="320" key="GridCell.Tab.0.bottom" timestamp="1621432337409">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -123,5 +169,35 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="42" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621432250464" />
+=======
+    <state x="-802" y="-256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621417424540">
+      <screen x="-1080" y="-981" width="1080" height="1920" />
+    </state>
+    <state x="-802" y="-256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.-981.1080.1920/0.-1080.1920.1080/0.0.1680.1050@-1080.-981.1080.1920" timestamp="1621417424540" />
+    <state width="1038" height="392" key="GridCell.Tab.0.bottom" timestamp="1621422825559">
+      <screen x="-1080" y="-981" width="1080" height="1920" />
+    </state>
+    <state width="1038" height="392" key="GridCell.Tab.0.bottom/-1080.-981.1080.1920/0.-1055.1920.1055/0.25.1680.1025@-1080.-981.1080.1920" timestamp="1621420130971" />
+    <state width="1038" height="392" key="GridCell.Tab.0.bottom/-1080.-981.1080.1920/0.-1080.1920.1080/0.0.1680.1050@-1080.-981.1080.1920" timestamp="1621422825559" />
+    <state width="1038" height="392" key="GridCell.Tab.0.center" timestamp="1621422825556">
+      <screen x="-1080" y="-981" width="1080" height="1920" />
+    </state>
+    <state width="1038" height="392" key="GridCell.Tab.0.center/-1080.-981.1080.1920/0.-1055.1920.1055/0.25.1680.1025@-1080.-981.1080.1920" timestamp="1621420130969" />
+    <state width="1038" height="392" key="GridCell.Tab.0.center/-1080.-981.1080.1920/0.-1080.1920.1080/0.0.1680.1050@-1080.-981.1080.1920" timestamp="1621422825556" />
+    <state width="1038" height="392" key="GridCell.Tab.0.left" timestamp="1621422825555">
+      <screen x="-1080" y="-981" width="1080" height="1920" />
+    </state>
+    <state width="1038" height="392" key="GridCell.Tab.0.left/-1080.-981.1080.1920/0.-1055.1920.1055/0.25.1680.1025@-1080.-981.1080.1920" timestamp="1621420130967" />
+    <state width="1038" height="392" key="GridCell.Tab.0.left/-1080.-981.1080.1920/0.-1080.1920.1080/0.0.1680.1050@-1080.-981.1080.1920" timestamp="1621422825555" />
+    <state width="1038" height="392" key="GridCell.Tab.0.right" timestamp="1621422825557">
+      <screen x="-1080" y="-981" width="1080" height="1920" />
+    </state>
+    <state width="1038" height="392" key="GridCell.Tab.0.right/-1080.-981.1080.1920/0.-1055.1920.1055/0.25.1680.1025@-1080.-981.1080.1920" timestamp="1621420130970" />
+    <state width="1038" height="392" key="GridCell.Tab.0.right/-1080.-981.1080.1920/0.-1080.1920.1080/0.0.1680.1050@-1080.-981.1080.1920" timestamp="1621422825557" />
+    <state x="-1031" y="-371" key="SettingsEditor" timestamp="1621419987614">
+      <screen x="-1080" y="-981" width="1080" height="1920" />
+    </state>
+    <state x="-1031" y="-371" key="SettingsEditor/-1080.-981.1080.1920/0.-1055.1920.1055/0.25.1680.1025@-1080.-981.1080.1920" timestamp="1621419987614" />
+>>>>>>> 079d191ebaa63e84d1ea483e02879608cfaf99a0
   </component>
 </project>

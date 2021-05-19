@@ -6,16 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="mybatis-generator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatis-generator" target="12" />
+=======
+        <module name="mybatisTool" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatisTool" target="11" />
+>>>>>>> 079d191ebaa63e84d1ea483e02879608cfaf99a0
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+<<<<<<< HEAD
       <module name="mybatis-generator" options="-parameters" />
+=======
+      <module name="mybatisTool" options="-parameters" />
+>>>>>>> 079d191ebaa63e84d1ea483e02879608cfaf99a0
     </option>
   </component>
 </project>
