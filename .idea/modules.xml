@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mybatisTool.iml" filepath="$PROJECT_DIR$/.idea/mybatisTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mybatis-generator.iml" filepath="$PROJECT_DIR$/.idea/mybatis-generator.iml" />
     </modules>
   </component>
 </project>
